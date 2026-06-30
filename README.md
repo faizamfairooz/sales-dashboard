@@ -2,7 +2,7 @@
 
 An end-to-end interactive sales analytics dashboard built with **Streamlit**, **Pandas**, **Plotly**, and **Facebook Prophet**.
 
-> 🔗 **Live demo:** [your-app.streamlit.app](https://your-app.streamlit.app) ← replace after deployment
+> 🔗 **Live demo:** [sales-dashboard.streamlit.app](https://sales-dashboard-xprqr9mthj84uxny3ygtcw.streamlit.app/)
 
 ---
 
@@ -52,7 +52,7 @@ Don't have 3.11? Install it:
 **Option A — automatic setup (recommended):**
 
 ```bash
-git clone https://github.com/yourusername/sales-dashboard.git
+git clone https://github.com/faizamfairooz/sales-dashboard.git
 cd sales-dashboard
 bash setup.sh        # auto-detects Python 3.10/3.11/3.12 and installs everything
 ```
@@ -61,7 +61,7 @@ bash setup.sh        # auto-detects Python 3.10/3.11/3.12 and installs everythin
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/sales-dashboard.git
+git clone https://github.com/faizamfairooz/sales-dashboard.git
 cd sales-dashboard
 
 # 2. Create a venv with Python 3.11 specifically
@@ -124,11 +124,10 @@ sales-dashboard/
    (or add a small startup check in `app.py` that runs the cleaning step automatically)
 3. The included `runtime.txt` tells Streamlit Cloud to use Python 3.11 — no extra config needed
 4. Go to [share.streamlit.io](https://share.streamlit.io) → New app → connect your repo → Deploy
-5. Add the live URL to your CV
 
 ---
 
 ## Author
 
-Built by **[Your Name]** as part of a Data Science portfolio.
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
+Built by **Faizam Fairooz** as part of a Data Science portfolio.
+[LinkedIn](https://linkedin.com/in/faizamfairooz) · [GitHub](https://github.com/faizamfairooz)
